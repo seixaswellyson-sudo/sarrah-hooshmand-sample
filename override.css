@@ -1,0 +1,5 @@
+/* per-lead hero treatment: out */
+@media (prefers-reduced-motion: no-preference) {
+  img[fetchpriority="high"] { animation: kb-out 30s ease-in-out infinite alternate; }
+  @keyframes kb-out { from { transform: scale(1.11); } to { transform: scale(1); } }
+}
